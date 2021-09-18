@@ -1,0 +1,408 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap');
+@font-face {
+  src: url("Font/Bon Foyage.otf");
+  font-family: bon-foyage;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+html ,body{
+	scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+h1,h2,h3,h4,h5{
+	font-family: bon-foyage;
+}
+/*header*/
+body{
+	width: 100%;
+}
+.header{
+	background: #753523;
+	padding-bottom: 50px;
+}
+.logo{
+	color: #D79771;
+	font-family: bon-foyage;
+	font-size: 23pt;
+}
+.nav a{
+	text-decoration: none;
+	color: #FFEBC9;
+	font-family: bon-foyage;
+	font-size: 34pt;
+}
+.nav .nav-link:hover{
+	color: #D79771;
+}
+.img-banner-1{
+	margin: 150px 0 0 0;
+}
+.img-banner-2{
+	left: 100px;
+	position: relative;
+	top: -50px;
+}
+.button img{
+	margin-top: -20px;
+}
+.button{
+	display: flex;
+	justify-content: center;
+    transition: margin-top 2s;
+}
+.button:hover{
+	cursor: pointer;
+	margin-top: 20px;
+}
+/*section 1*/
+.phanmot{
+	background: #B05C3C;
+	margin-top: -80px;
+	padding-bottom: 80px;
+}
+.phanmotnho{
+	padding-top: 80px;
+}
+.phanmotnho p{
+	color: #FFEBC9;
+	font-family: 'Darker Grotesque', sans-serif;
+	font-weight: 400;
+	font-size: 20pt;
+}
+/*section 2*/
+.portfolio{
+	background: #D79771;
+	margin-top: 560px;
+	padding-bottom: 10px;
+}
+.portfolionho{
+	padding-top: 20px;
+	margin-bottom: 50px;
+}
+.portfolionho h1{
+	font-size: 150pt;
+	color: #FFEBC9;
+}
+.button-1{
+	display: flex;
+	justify-content: center;
+    transition: margin-top 2s;
+	padding-top: 50px;
+}
+.button-1:hover{
+	cursor: pointer;
+	margin-top: 20px;
+}
+/*section 3*/
+.element{
+	background: #FFEBC9;
+	margin-top: 850px;
+	padding-bottom: 80px;
+}
+.elementten{
+	padding-top: 80px;
+}
+.elementten h1{
+	color: #D79771;
+}
+.elementten h1:hover{
+	color: #753523;
+	cursor: help;
+	font-size: 60pt;
+}
+/*spham*/
+.xemthem{
+	color: #753523;
+}
+.xemthem-1{
+	color: #753523;
+}
+.xemthem-2{
+	color: #FFEBC9;
+}
+.xemthem:hover{
+	color: #D79771;
+}
+.xemthem-1:hover{
+	color: #FFEBC9;
+}
+.xemthem-2:hover{
+	color: #D79771;
+}
+/*dp*/
+.dp{
+	background-color: #FFEBC9;
+	width: 100%;
+	padding-bottom: 40px;
+}
+.dp h1{
+	color: #D79771;
+	font-size: 80px;
+}
+/*ptg*/
+.ptg{
+	background-color: #D79771;
+	width: 100%;
+	padding-bottom: 40px;
+}
+.ptg h1{
+	color: #B05C3C;
+	font-size: 80px;
+}
+/*illus*/
+.illus{
+	background-color: #B05C3C;
+	width: 100%;
+	padding-bottom: 40px;
+}
+.illus-2{
+	background-color: #B05C3C;
+	width: 100%;
+	padding-bottom: 40px;
+}
+.illus h1{
+	color: #753523;
+	font-size: 80px;
+}
+.illus-2 h1{
+	color: #753523;
+	font-size: 80px;
+}
+/*footer*/
+.footer{
+	margin-top: 200px;
+	padding-bottom: 30px;
+	background: #753523;
+}
+.footer-1{
+	padding-bottom: 30px;
+	background: #D79771;
+}
+.footer-2{
+	padding-bottom: 30px;
+	background: #753523;
+}
+.footer-1 h3{
+	color: #753523;
+}
+.footer-2 h3{
+	color: #B05C3C;
+}
+.footer h3{
+	color: #FFEBC9;
+}
+.footer p{
+	color: #D79771;
+	font-family: 'Darker Grotesque', sans-serif;
+	font-weight: 500;
+	font-size: 16pt;
+}
+.footer-1 p{
+	color: #FFEBC9;
+	font-family: 'Darker Grotesque', sans-serif;
+	font-weight: 500;
+	font-size: 16pt;
+}
+.footer-2 p{
+	color: #FFEBC9;
+	font-family: 'Darker Grotesque', sans-serif;
+	font-weight: 500;
+	font-size: 16pt;
+}
+.buttonn{
+	border: none;
+	color: #FFEBC9;
+	background: #D79771;
+	padding: 5px 20px;
+	border-radius: 60px;
+}
+.buttonn-1{
+	border: none;
+	color: #D79771;
+	background: #753523;
+	padding: 5px 20px;
+	border-radius: 60px;
+}
+.buttonn-2{
+	border: none;
+	color: #D79771;
+	background: #B05C3C;
+	padding: 5px 20px;
+	border-radius: 60px;
+}
+.buttonn:hover{
+	border-bottom: 1px solid #FFEBC9;
+	border-right: 1px solid #FFEBC9;
+}
+.buttonn-1:hover{
+	border-bottom: 1px solid #FFEBC9;
+	border-right: 1px solid #FFEBC9;
+}
+.buttonn-2:hover{
+	border-bottom: 1px solid #FFEBC9;
+	border-right: 1px solid #FFEBC9;
+}
+/*form*/
+.form{
+	background: #753523;
+	width: 100%;
+	padding-bottom: 80px;
+}
+.formnho h3{
+	color: #D79771;
+	margin-bottom: 60px;
+}
+.formnho{
+	padding-top: 40px;
+}
+.formnho label{
+	color: #D79771;
+	font-family: 'Darker Grotesque', sans-serif;
+	font-weight: 500;
+	font-size: 16pt;
+}
+#fname{
+	padding: 5px 20px;
+}
+.form-control{
+	padding: 20px;
+}
+#subject{
+	padding: 20px 20px;
+}
+.btn{
+	border: 1px solid #D79771;
+	color: #D79771;
+}
+.btn:hover{
+	background: #FFEBC9;
+	color: #D79771;
+}
+@media only screen 
+   and (max-width : 2700px) {
+   /* Styles here */
+	   .banner-mb{
+		   display: none;
+	   }
+	   .ptg-mb{
+		   display: none;
+	   }
+	   .banner-mb{
+		   display: none;
+	   }
+	   .vetoi-text{
+		   display: none;
+	   }
+	   .vetoi-img-mb{
+		   display: none;
+	   }
+	   .bannerpf-2{
+		   display: none;
+	   }
+	   .footer-3{
+		   display: none;
+	   }
+	   .illus-2{
+		   display: none;
+	   }
+}
+@media only screen 
+   and (max-width : 414px) {
+   /* Styles here */
+	   .banner{
+		   display: none;
+	   }
+	   .logo{
+		   width: 100%;
+	   }
+	   .dp{
+		   margin-top: -80px;
+	   }
+	   .ptg{
+		   display: none;
+	   }
+	   .ptg-mb{
+		   background-color: #D79771;
+		   width: 100%;
+		   padding-bottom: 40px;
+		   display: block;
+		   margin-top: 1520px;
+	   }
+	   .ptg-mb h1{
+		   color: #B05C3C;
+		   font-size: 80px;
+	   }
+	   .illus{
+		  display: none;
+	   }
+	   .footer-2{
+		   display: none;
+	   }
+	   .footer-3{
+		   display: block;
+	   }
+	   .illus-2{
+		   display: block;
+	   }
+	   .menu{
+		   display: none;
+	   }
+	   .hamb{
+		   display: block;
+	   }
+	   .banner-mb{
+		   display: block;
+	   }
+	   .button{
+		   padding-top: 40px;
+	   }
+	   .img-banner-2{
+		   padding-top: 80px;
+		   margin-left: -60px;
+	   }
+	   .img-banner-1{
+		   margin-top: 80px;
+		   margin-left: 20px;
+	   }
+	   .vetoi-text{
+		   display: block;
+		   position: relative;
+		   z-index: 2;
+	   }
+	   .vetoi-text-pc{
+		   display: none;
+	   }
+	   .vetoi-img{
+		   display: none;
+	   }
+	   .vetoi-img-mb{
+		   display: block;
+		   position: relative;
+		   top: -280px;
+		   z-index: 1;
+	   }
+	   .bannerpf-1{
+		   display: none;
+	   }
+	   .bannerpf-2{
+		   display: block;
+	   }
+	   .portfolio h1{
+		   font-size: 80px;
+	   }
+	   .portfolio{
+		   margin-top: 400px;
+	   }
+	   .element{
+		   margin-top: 280px;
+	   }
+	  .footer{
+		   margin-top: 180px;
+	   }
+}
