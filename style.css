@@ -78,7 +78,7 @@ body{
 /*section 2*/
 .portfolio{
 	background: #D79771;
-	margin-top: 560px;
+	margin-top: 580px;
 	padding-bottom: 10px;
 }
 .portfolionho{
@@ -285,7 +285,7 @@ body{
 	color: #D79771;
 }
 @media only screen 
-   and (max-width : 2700px) {
+   and (max-width : 2000px) {
    /* Styles here */
 	   .banner-mb{
 		   display: none;
