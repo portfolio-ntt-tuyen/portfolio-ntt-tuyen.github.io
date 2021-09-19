@@ -414,7 +414,7 @@ body{
 	   .hamb{
 		   display: block;
 		   position: relative;
-		   left: 340px;
+		   left: 300px;
 		   top: -32px;
 		   
 	   }
@@ -480,6 +480,6 @@ body{
 		   margin-top: 260px;
 	   }
 	   #footerchinh{
-		   margin-top: 160px;
+		   margin-top: 150px;
 	   }
 }
