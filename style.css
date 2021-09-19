@@ -311,6 +311,12 @@ body{
 	   .illus-2{
 		   display: none;
 	   }
+	   .hamb{
+		   display: none;
+	   }
+	   .sidebar{
+		   display: none;
+	   }
 }
 @media only screen 
    and (max-width : 414px) {
@@ -405,4 +411,70 @@ body{
 	  .footer{
 		   margin-top: 180px;
 	   }
+	   .hamb{
+		   display: block;
+		   position: relative;
+		   left: 340px;
+		   top: -32px;
+		   
+	   }
+	   .hamb:hover{
+		   color: saddlebrown;
+	   }
+	   #mySidebar{
+		   display: block;
+	   }
+	   .sidebar {
+		  height: 100%;
+		  width: 0;
+		  position: fixed;
+		  z-index: 1;
+		  top: 0;
+		  left: -26px;
+		  background-color: #B05C3C;
+		  overflow-x: hidden;
+		  transition: 0.8s;
+		  padding-top: 60px;
+		  opacity: 0.9;
+		}
+
+		.sidebar a {
+		  padding: 8px 8px 8px 32px;
+		  text-decoration: none;
+		  font-size: 25px;
+		  color: #753523;
+		  display: block;
+		  transition: 0.3s;
+		}
+
+		.sidebar a:hover {
+		  color: #753523;
+		}
+
+		.sidebar .closebtn {
+		  position: absolute;
+		  top: 0;
+		  right: 25px;
+		  font-size: 36px;
+		  margin-left: 50px;
+		}
+
+		.openbtn {
+		  font-size: 20px;
+		  cursor: pointer;
+		  background-color: #F1A278;
+		  color: white;
+		  padding: 10px 15px;
+		  border: none;
+		}
+
+		.openbtn:hover {
+		  background-color: #B05C3C;
+		}
+
+		#main {
+		  transition: margin-left .5s;
+		  padding: 16px;
+		}
+
 }

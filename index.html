@@ -28,7 +28,13 @@
 							</nav>
 						</div>
 					</div>
-					<div class="col-2 hamb" style="font-size: 30px; color: antiquewhite"><i class="fad fa-hamburger"></i></div>
+					<div class="col-12 hamb" style="color: antiquewhite" onclick="openNav()"><h2>𑁔</h2></div>
+						<div id="mySidebar" class="sidebar">
+						  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+						  <a href="#vetoi">Về tôi</a>
+						  <a href="https://sanpham-ntt-tuyen.github.io/">Sản phẩm</a>
+						  <a href="https://form-ntt-tuyen.github.io/">Liên hệ</a>
+						</div>
 				</div>
 			</div>
 			<div class="container-md banner">
@@ -39,7 +45,7 @@
 					<div class="col-6 img-banner-2 animate__animated animate__fadeInRight">
 						<img src="img/Banner_img_self-08.png" height="800px" alt="">
 					</div>
-					<div class="button"><img src="img/Button-07.png" height="30px" alt=""></div>
+					<div class="button"><a href="vetoi"><img src="img/Button-07.png" height="30px" alt=""></a></div>
 				</div>
 			</div>
 				<div class="container banner-mb">
@@ -50,7 +56,7 @@
 					<div class="col-12 img-banner-2 animate__animated animate__fadeInRight">
 						<img src="img/Banner_img_self-08.png" height="500px" alt="">
 					</div>
-					<div class="button"><img src="img/Button-07.png" height="30px" alt=""></div>
+					<div class="button"><a href="#vetoi"><img src="img/Button-07.png" height="30px" alt=""></a></div>
 				</div>
 			</div>
 			</div>
@@ -83,7 +89,7 @@
 								<div class="col-12"><p class="text-center">Xin chào, mình là Thanh Tuyền, hiện tại mình đang học tại Arena Multimedia cùng với đó mình đang là một freelance, cùng với đam mê và nhiệt huyết.</p></div>
 							</div>
 						</div>
-						<div class="button"><img src="img/Button-07.png" height="30px" alt=""></div>
+						<div class="button"><a href="#phanhai"><img src="img/Button-07.png" height="30px" alt=""></a></div>
 					</div>
 				</div>
 			</section>
@@ -101,13 +107,13 @@
 						<div class="col-sm-12 d-flex justify-content-center" >
 							<img class="bannerpf-2" src="img/Portfolio-08.png" height="300px" alt="">
 						</div>
-						<div class="button-1"><img src="img/Button-07.png" height="30px" alt=""></div>
+						<div class="button-1"><a href="#ele"><img src="img/Button-07.png" height="30px" alt=""></a></div>
 					</div>
 				</div>
 			</section>
 <!--			3-->
 			<section>
-				<div class="element">
+				<div class="element" id="ele">
 					<div class="container-md">
 						<div class="row elementten">
 							<div class="col-md-12"><a class="text-decoration-none" href="https://sanpham-ntt-tuyen.github.io/"><h1>Digital Paiting</h1></a></div>
@@ -125,7 +131,7 @@
 					<div class="text-md-center">
 						<h3 class="pt-5">@tuynz</h3>
 						<p>Thanh Tuyen is a graphic designer and illustrator based in HCM city</p>
-						<a href="form.html"><button class="buttonn">Liên hệ</button></a>
+						<a href="https://form-ntt-tuyen.github.io/"><button class="buttonn">Liên hệ</button></a>
 					</div>
 				</div>
 			</div>
@@ -154,6 +160,18 @@
       this.parentNode.insertBefore(section, this);
     };
     </script>
-<!--	smooth-->
+<!--	icon-->
+	<script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg="nest"></script>
+<!--	sidebar-->
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
 
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
 </html>
