@@ -476,5 +476,10 @@ body{
 		  transition: margin-left .5s;
 		  padding: 16px;
 		}
-
+	   .element{
+		   margin-top: 260px;
+	   }
+	   #footerchinh{
+		   margin-top: 160px;
+	   }
 }
